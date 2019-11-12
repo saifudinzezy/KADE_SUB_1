@@ -15,7 +15,6 @@ class DetailFootball : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        //setContentView(R.layout.activity_detail_football)
         //parsing
         //https://medium.com/the-lazy-coders-journal/easy-parcelable-in-kotlin-the-lazy-coders-way-9683122f4c00
         var football: FootbalClub  = intent.getParcelableExtra(Config.KEY_FOOTBALL)

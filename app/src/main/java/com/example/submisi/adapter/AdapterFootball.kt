@@ -1,16 +1,15 @@
 package com.example.submisi.adapter
 
 import android.content.Context
-import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.submisi.R
 import com.example.submisi.model.FootbalClub
 import com.example.submisi.ui.list.Football
 import com.squareup.picasso.Picasso
 import kotlinx.android.extensions.LayoutContainer
-import kotlinx.android.synthetic.main.football_list.view.*
 import org.jetbrains.anko.AnkoContext
 
 //TODO CREATE 2. ADAPTER
@@ -32,10 +31,18 @@ class AdapterFootball(private val context: Context,
     }
 
     class ViewHolder(override val containerView: View) : RecyclerView.ViewHolder(containerView), LayoutContainer {
+        var tvTitle: TextView
+        var gambar: ImageView
+
+        init {
+            tvTitle = itemView.findViewById(Football.tvTitleId)
+            gambar = itemView.findViewById(Football.iVimage)
+        }
+
         fun bindItem(items: FootbalClub, listener: (FootbalClub) -> Unit) {
-            itemView.name.text = items.nameFootbal
+            tvTitle.text = items.nameFootbal
             //jika items.image kosong isi dengan load picasso
-            items.nameImage.let { Picasso.get().load(it).fit().into(itemView.image) }
+            items.nameImage?.let { Picasso.get().load(it).fit().into(gambar) }
             itemView.setOnClickListener {
                 listener(items)
             }

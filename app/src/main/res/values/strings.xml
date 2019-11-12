@@ -3,38 +3,37 @@
 
     <!--    club name-->
     <string-array name="club_name">
-        <item>Barcelona FC</item>
-        <item>Real Madrid FC</item>
-        <item>Bayern Munchen FC</item>
-        <item>Manchester City FC</item>
-        <item>Manchester United FC</item>
-        <item>Chelsea FC</item>
-        <item>AC Milan FC</item>
-        <item>Arsenal FC</item>
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+        <item>American Mayor League</item>
+        <item>Protugeuese Premiera Liga</item>
+        <item>Australian A League</item>
     </string-array>
 
     <!--    club image-->
     <array name="club_image">
-        <item>@drawable/img_barca</item>
-        <item>@drawable/img_madrid</item>
-        <item>@drawable/img_bayern</item>
-        <item>@drawable/img_city</item>
-        <item>@drawable/img_mu</item>
-        <item>@drawable/img_chelsea</item>
-        <item>@drawable/img_acm</item>
-        <item>@drawable/img_arsenal</item>
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/french_ligue_1</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+        <item>@drawable/american_mayor_league</item>
+        <item>@drawable/portugeuese_premiera_liga</item>
+        <item>@drawable/australian_a_league</item>
     </array>
 
     <!--    club desc-->
     <array name="club_desc">
-        <item>Fútbol Club Barcelona, juga dikenal sebagai Barcelona atau Barça, adalah klub sepak bola profesional yang berbasis di Barcelona, Catalunya, Spanyol. </item>
-        <item>Real Madrid Club de Fútbol, umumnya dikenal sebagai Real Madrid, adalah klub sepak bola profesional yang berbasis di Madrid, Spanyol. </item>
-        <item>Fußball-Club Bayern München e.V., juga dikenal sebagai FC Bayern München, FC Bayern Munich, atau FC Bayern, adalah sebuah klub olahraga Jerman yang berbasis di München, Bavaria.</item>
-        <item>Manchester City Football Club adalah sebuah klub sepak bola profesional dari Inggris yang bermain di Liga Premier Inggris. </item>
-        <item>Manchester United Football Club adalah sebuah klub sepak bola profesional Inggris yang berbasis di Old Trafford,
-            Manchester Raya, yang bermain di Liga Inggris</item>
-        <item>Chelsea Football Club adalah sebuah klub sepak bola Inggris yang bermarkas di Fulham, London. Chelsea didirikan pada tahun 1905 dan kini berkompetisi di Liga Utama Inggris. </item>
-        <item>Associazione Calcio Milan, sering disebut sebagai A.C. Milan atau hanya Milan, adalah sebuah klub sepak bola Italia yang berbasis di Milan, Lombardia, yang bermain di Serie A.</item>
-        <item>Arsenal Football Club adalah klub sepak bola profesional Inggris yang berbasis di daerah Holloway, London. </item>
+        <item>The Premier League (often referred to as the English Premier League (EPL) outside England), is the top level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL).</item>
+        <item>Ligue 1 (French pronunciation League 1, formerly known as Division 1), is the French professional league for association football clubs.</item>
+        <item>The Fußball-Bundesliga (English: Football Federal League), commonly known as the Bundesliga, is a professional association football league in Germany and the football league with the highest average stadium attendance worldwide.</item>
+        <item>Serie A, also called Serie A TIM due to sponsorship by Telecom Italia, is a professional league competition for football clubs located at the top of the Italian football league system and has been operating for over eighty years since the 1929–30 season.</item>
+        <item>The Primera Division, commonly known as La Liga and as La Liga Santander for sponsorship reasons, is the top professional association football division of the Spanish football league system. </item>
+        <item>Major League Soccer (MLS) is a professional soccer league representing the sport\'s highest level in both the United States and Canada. </item>
+        <item>The Primeira Liga (First League Portuguese pronunciation: ), formerly called Primeira Division), is the top professional association football division of the Portuguese football league system.</item>
+        <item>The A-League is a professional men\'s soccer league, run by Football Federation Australia (FFA). At the top of the Australian league system, it is the country\'s primary competition for the sport.</item>
     </array>
 </resources>
